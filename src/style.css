@@ -90,7 +90,18 @@ div#cadastrarAlunos button {
     border-radius: inherit;
 }
 
-#section2 #lista #alunos {
+#section2 ul#lista {
+    position: relative;
+    /* background-color: greenyellow; */
+    width: 100%;
+    height: 78%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* #section2 #lista .aluno {
     position: relative;
     border: 1px white solid;
     padding: 10px 20px;
@@ -99,6 +110,4 @@ div#cadastrarAlunos button {
     display: flex;
     align-items: center;
     margin-top: 2px;
-}
-
-#section2 #alunos
+} */
